@@ -1,0 +1,126 @@
+/*Landing Page*/
+
+body{
+	background: url('backgroung.jpg');
+	background-size: cover;
+}
+.header a{
+	color: white;
+	text-decoration-line: none;
+}
+
+.header{
+	background-color:rgb(56, 34, 28,0.7);
+	border-radius: 5px;
+	color:white;
+
+}
+.header-li{
+	display:inline-block;
+	font-size: 20px;
+	padding:20px;	
+}
+#login{
+	float:right;
+}
+.intro{
+	background-color:rgb(56, 34, 28,0.7);
+	border-radius: 5px;
+	color:white;
+	text-align:center;
+	width:500px;
+	height: 200px;
+	margin: 100px auto;
+	font-size: 24px;
+	z-index: 0;
+}
+.intro p{
+	padding:20px 0;
+}
+.intro a{
+	color: white;
+	text-decoration-line: none;
+	padding: 10px 30px;
+	background-color: rgb(56,34,28);
+	border-radius: 5px;
+}
+
+/*Signup form*/
+
+.signup-page{
+	height:400px;
+	width:500px;
+	margin:100px auto;
+	background-color: #3b2721;
+	text-align: center;
+	border-radius: 10px;
+}
+.signup-page p{
+	padding: 10px 0;
+	color: #ffffff;
+}
+.signup-item{
+	width: 400px;
+	padding: 12px;
+	margin:10px;
+	border-radius: 10px;
+}
+#signup-action{
+	display: flex;
+	position: absolute;
+	left:610px;
+}
+#signup-btn{
+	padding: 10px;
+	margin:5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+
+/*Login Item */
+
+.login-page{
+	height:250px;
+	width:500px;
+	position: absolute;
+	top:120px;
+	left:400px;
+	background-color: #3b2721;
+	text-align: center;
+	border-radius: 10px;
+	display: block;
+}
+
+.login-item{
+	width: 400px;
+	padding: 12px;
+	margin-top:30px;
+	border-radius: 10px;
+}
+#login-action{
+	display: flex;
+	position: absolute;
+	left:220px;
+}
+#login-btn{
+	padding: 10px;
+	margin:20px 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+#login-comment{
+	font-size: 24px;
+	color: white;
+	margin:5px auto;
+}
+
+/* footer*/
+
+.footer{
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color: rgb(56, 34, 28,0.7);
+	position: absolute;
+}
