@@ -17,7 +17,7 @@
         }
 		session_start();
 		if (!isset($_SESSION['loggedin'])) {
-			header('Location: index.php');
+			header('Location: index.html');
 		exit;
 		}
 		$user_id = $_SESSION['user_id']
